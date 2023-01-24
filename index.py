@@ -1,3 +1,5 @@
+print('The following code is PYTHON')
+
 print("Hello Python!")
 if 5 > 2:
     print("Five is greater than two!")
