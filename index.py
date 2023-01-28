@@ -1,8 +1,37 @@
 print('The following code is PYTHON')
 
-print("Hello Python!")
+print("Hello Python my name is Ayo!")
 if 5 > 2:
     print("Five is greater than two!")
+    #variable and types
+    #numbers(integers and floats)
+    #integers
+myint = 7
+print(myint)
+
+    #floats
+myfloat = 7.0
+print(myfloat)
+    #or
+myfloat = float(7)
+print(myfloat)
+
+    #strings
+mystring = "hello my name is Ayo and i'm learning react"
+print(mystring)
+
+    #lists
+mylist = []
+mylist.append(1)
+mylist.append(2)
+mylist.append(3)
+print(mylist[0])
+print(mylist[1])
+print(mylist[2])
+
+for x in mylist:
+    print(x)
+
     #global variables
 x, y, z = 'Orange', 'Banana', 'Watermelon'
 print(x)
@@ -21,6 +50,7 @@ g = 'Python '
 h = "is "
 i = "awesome"
 print(g + h + i)
+
     #keywords without global variable
 x = "awesome"
 
@@ -29,6 +59,7 @@ def myfunc():
 
 myfunc()
 print("Python is " + x)
+
     #global keywords
 x = "awesome"
 def myfunc():
@@ -36,15 +67,19 @@ def myfunc():
     x = "fantastic"
 myfunc()
 print("Python is " + x)
+
     #random
 import random
 print(random.randrange(1, 10))
+
 #positioning in python
 j = "Hello Python!"
 print(j[1])
+
 #checking lenght
 k = 'hello Python!'
 print(len(k))
+
 #check string
 txt = 'The best things in life are free'
 print('free' in txt)
@@ -52,6 +87,7 @@ print('free' in txt)
 txt = 'The best things in life are free'
 if 'free' in txt:
     print('Yes, "free" is present.')
+
 #check string second part
 txt = 'The best things in life are free'
 print('chere' in txt)
@@ -59,24 +95,29 @@ print('chere' in txt)
 txt = 'The best things in life are free'
 if 'chere' not in txt:
     print('No, "chere" is NOT present.')
+
     #slicing
 l = "Hello Python!"
 print(l[2:5])
+
     #while loops
 i = 1
 while i < 6:
     print(i)
     i += 1
+
     #break statement
 while i < 6:
     print(i)
     if i == 3:
         break
     i += 1
+
     #for loop
 portables = ['Samsung', 'Iphone', 'Google-pixel']
 for x in portables:
     print(x)
+
     #range
 for x in range(1, 23, 2):
     print(x)     
