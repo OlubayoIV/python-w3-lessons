@@ -32,6 +32,23 @@ print(mylist[2])
 for x in mylist:
     print(x)
 
+    #arithmetic operators
+number = 1 + 2 * 3 / 4.0
+print(number)
+
+remainder = 11 % 3
+print(remainder)
+
+    #operators with strings
+helloworld = "hello" + ' ' + "world"
+print(helloworld)
+
+    #operators with lists
+even_numbers = [2, 4, 6, 8]
+odd_numbers = [1, 3, 5, 7]
+all_numbers = odd_numbers + even_numbers
+print(all_numbers)
+
     #global variables
 x, y, z = 'Orange', 'Banana', 'Watermelon'
 print(x)
