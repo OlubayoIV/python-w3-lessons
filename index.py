@@ -69,6 +69,26 @@ x = 2
 print(x == 2)
 print(x == 3)
 print(x < 3)
+
+    #boolean operators
+name = 'John'
+age = 23
+if name == 'John' and age == 23:
+    print('Ton nom est John, est tu as vingt trois ans aussi.')
+
+if name == 'John' or name == 'Doe':
+    print('Your name is either John or Rick.')
+
+if name in ['John', 'Doe']:
+    print('Your name is either John or Rick.')
+
+    #if, elif, else statements
+x = 2
+if x == 2:
+    print('x equals two!')
+else:
+    print('x does nor equal to two.')
+
     #global variables
 x, y, z = 'Orange', 'Banana', 'Watermelon'
 print(x)
