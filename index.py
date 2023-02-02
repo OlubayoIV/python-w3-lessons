@@ -49,6 +49,26 @@ odd_numbers = [1, 3, 5, 7]
 all_numbers = odd_numbers + even_numbers
 print(all_numbers)
 
+    #string formatting
+name = 'John'
+age = 23
+print('Hello, %s is %d years old.' % (name, age))
+    #string lenght
+astring = 'Hello world!'
+print("single quotes are ' '")
+print(len(astring))
+    #string index
+astring = 'Hello World!'
+print(astring.index("o"))
+    #string count
+astring = 'Hello World!'
+print(astring.count("l"))
+
+    #conditions
+x = 2
+print(x == 2)
+print(x == 3)
+print(x < 3)
     #global variables
 x, y, z = 'Orange', 'Banana', 'Watermelon'
 print(x)
