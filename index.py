@@ -89,6 +89,41 @@ if x == 2:
 else:
     print('x does nor equal to two.')
 
+    #loops (for)
+for x in range(5):
+    print(x)        #print out 0, 1, 2, 3, 
+    4
+for x in range(3, 6):
+    print(x)        #print out 3, 4, 5
+for x in range(3, 8, 2):
+    print(x)        #print out 3, 5, 7 
+    #loops (while)
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+    
+    #break
+count = 0
+while True:
+    print(count)
+    count += 1
+    if count >= 5:
+        break
+
+for x in range(10):
+    if x % 2 == 0:
+        continue
+    print(x)
+
+    #functions
+def my_function():
+    print('Hello from my function')
+def my_function_with_args(username, greeting):
+    print('Hello, %s , From my Function!, I wish you %s' %(username, greeting))
+def sum_two_numbers(a, b):
+    return a + b
+    
     #global variables
 x, y, z = 'Orange', 'Banana', 'Watermelon'
 print(x)
