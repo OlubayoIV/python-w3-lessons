@@ -123,7 +123,39 @@ def my_function_with_args(username, greeting):
     print('Hello, %s , From my Function!, I wish you %s' %(username, greeting))
 def sum_two_numbers(a, b):
     return a + b
+
+    #class and objects
+class MyClass:
+    variable = 'blah'
+
+    def function(self):
+        print('This is a message inside the class.')
+
+newobject = MyClass()
+
+print(newobject.variable)
+newobject.function()
     
+    #init function
+class NumberHolder:
+    def __init__(self, number):
+        self.number = number
+    def returnNumber(self):
+        return self.number
+var = NumberHolder(7)
+print(var.returnNumber())
+
+    #dictionary
+phonebook = {}
+phonebook['John'] = 938477566
+phonebook['Jack'] = 938377264
+phonebook['Jill'] = 947662781
+
+print(phonebook)
+
+del phonebook['Jill']
+phonebook['Jake'] = 938273443
+
     #global variables
 x, y, z = 'Orange', 'Banana', 'Watermelon'
 print(x)
