@@ -1,3 +1,5 @@
+import new
+
 print('The following code is PYTHON')
 
 print("Hello Python my name is Ayo!")
@@ -53,7 +55,7 @@ print(all_numbers)
 name = 'John'
 age = 23
 print('Hello, %s is %d years old.' % (name, age))
-    #string lenght
+    #string length
 astring = 'Hello world!'
 print("single quotes are ' '")
 print(len(astring))
@@ -124,6 +126,14 @@ def my_function_with_args(username, greeting):
 def sum_two_numbers(a, b):
     return a + b
 
+    #try and except
+astr = 'hello bob'
+try:
+    istr = int(astr)
+except: 
+    istr = -1
+    
+    print('Backup', istr)
     #class and objects
 class MyClass:
     variable = 'blah'
