@@ -262,9 +262,9 @@ for x in range(1, 23, 2):
     #to avoid errors i should put in a 'pass' statement
 
     #functions in python
-def my_function():
+def my_newfunction():
     print('new pyhton')
-    my_function()
+    my_newfunction()
 
     #how to find files in python
 name = input('Enter file name:')
